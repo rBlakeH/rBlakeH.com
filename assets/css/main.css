@@ -205,7 +205,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 .5rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -214,7 +214,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.175em;
 		line-height: 1.75;
-		margin: 0 0 1.5rem 0;
+	/*	margin: 0 0 1.5rem 0;*/
 		text-transform: uppercase;
 	}
 
@@ -236,7 +236,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.25rem;
 		font-weight: 800;
-		margin: 0 0 2rem 0;
+		/*margin: 0 0 2rem 0;*/
 	}
 
 	h3 {
@@ -2511,6 +2511,10 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+			}
+
+			.image.main10 img {
+				width: 10%;
 			}
 
 			.image.main:first-child {
